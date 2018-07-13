@@ -26,6 +26,16 @@ dependencies {
 ```
 
 
+
+## Usage
+
+```java
+
+ CustomToast.customToast(this, "My message");
+```
+
+
+
 License
 --------
 
