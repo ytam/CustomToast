@@ -5,8 +5,6 @@ Custom snackbar and toast library
 
 ## How to add dependency?
 
-This library is not released in Maven Central, but instead you can use [JitPack](https://jitpack.io)
-
 
 ### gradle
 ```groovy
