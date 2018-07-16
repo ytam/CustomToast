@@ -1,7 +1,16 @@
 # CustomToast
 Custom toast library
 
- <img width="200" src="https://user-images.githubusercontent.com/15671434/42749753-68642828-88ed-11e8-920b-94d176d4a32f.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/42749754-68856204-88ed-11e8-9c1b-cdcee869bc1b.png">|<img width="200" src="https://user-images.githubusercontent.com/15671434/42749755-68a48544-88ed-11e8-9888-8badca914df7.png">|<img width="200" src="https://user-images.githubusercontent.com/15671434/42749756-68c451a8-88ed-11e8-8329-45897dbf1653.png">
+
+[Success Toast](https://user-images.githubusercontent.com/15671434/42749753-68642828-88ed-11e8-920b-94d176d4a32f.png) | [Error Toast](https://user-images.githubusercontent.com/15671434/42749754-68856204-88ed-11e8-9c1b-cdcee869bc1b.png)| [Info Toast](https://user-images.githubusercontent.com/15671434/42749755-68a48544-88ed-11e8-9888-8badca914df7.png) 
+------------------------------------------------------- | -------------------------------------------------------------------------|--------------------
+<img width="200" src="https://user-images.githubusercontent.com/15671434/42749753-68642828-88ed-11e8-920b-94d176d4a32f.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/42749754-68856204-88ed-11e8-9c1b-cdcee869bc1b.png">|<img width="200" src="https://user-images.githubusercontent.com/15671434/42749755-68a48544-88ed-11e8-9888-8badca914df7.png">
+
+
+[Warning Toast](https://user-images.githubusercontent.com/15671434/42749756-68c451a8-88ed-11e8-8329-45897dbf1653.png) | [Normal Toast](https://user-images.githubusercontent.com/15671434/42759618-4ccb37b4-8910-11e8-9ef2-41b34d67bf37.png)| 
+------------------------------------------------------- | -------------------------------------------------------------------------
+<img width="200" src="https://user-images.githubusercontent.com/15671434/42749756-68c451a8-88ed-11e8-8329-45897dbf1653.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/42759618-4ccb37b4-8910-11e8-9ef2-41b34d67bf37.png">
+
 
 
 ## How to add dependency?
@@ -53,6 +62,13 @@ CustomToast.info(this, "This is info message");
 ```java
 
 CustomToast.warning(this, "This is warning message");
+```
+
+#### Usage for normal toast message
+
+```java
+
+CustomToast.normal(this, "This is normal message");
 ```
 
 
