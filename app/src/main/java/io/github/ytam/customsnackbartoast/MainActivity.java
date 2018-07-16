@@ -39,5 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @OnClick(R.id.btnNormal) void clickNormal(){
 
+        CustomToast.normal(this, "This is normal message");
+
+    }
 }

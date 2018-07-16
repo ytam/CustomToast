@@ -10,7 +10,6 @@ public class CustomToast {
 
     public static void success(Context context, String message){
 
-
         Toast toast = Toast.makeText(context, message, Toast.LENGTH_LONG);
         View view = toast.getView();
         view.setBackgroundResource(R.drawable.bg_success);
@@ -55,5 +54,10 @@ public class CustomToast {
         toast.show();
     }
 
+    public static void normal(Context context, String message){
+
+        Toast toast = Toast.makeText(context, message, Toast.LENGTH_LONG);
+        toast.show();
+    }
 
 }

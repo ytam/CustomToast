@@ -50,4 +50,15 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content" />
 
+
+    <Button
+        android:id="@+id/btnNormal"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Normal Toast"
+        android:textColor="@android:color/white"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
