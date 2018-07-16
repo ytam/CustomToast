@@ -1,6 +1,7 @@
-# CustomSnackBarToast
-Custom snackbar and toast library
+# CustomToast
+Custom toast library
 
+ <img width="200" src="https://user-images.githubusercontent.com/15671434/42749753-68642828-88ed-11e8-920b-94d176d4a32f.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/42749754-68856204-88ed-11e8-9c1b-cdcee869bc1b.png">|<img width="200" src="https://user-images.githubusercontent.com/15671434/42749755-68a48544-88ed-11e8-9888-8badca914df7.png">|<img width="200" src="https://user-images.githubusercontent.com/15671434/42749756-68c451a8-88ed-11e8-8329-45897dbf1653.png">
 
 
 ## How to add dependency?
@@ -15,7 +16,7 @@ allprojects {
 }
 ```
 
-then add a library dependency
+then add the library to dependency
 
 ```groovy
 dependencies {
@@ -25,13 +26,34 @@ dependencies {
 
 
 
-## Usage
+#### Usage for success toast message
 
 ```java
 
- CustomToast.customToast(this, "My message");
+  CustomToast.success(this, "This is success message");
 ```
 
+#### Usage for error toast message
+
+```java
+
+ CustomToast.error(this, "This is error message");
+```
+
+#### Usage for info toast message
+
+```java
+
+CustomToast.info(this, "This is info message");
+```
+
+
+#### Usage for info toast message
+
+```java
+
+CustomToast.warning(this, "This is warning message");
+```
 
 
 License
