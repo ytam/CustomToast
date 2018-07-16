@@ -1,20 +1,59 @@
 package io.github.ytam.customtoast;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class CustomToast {
 
-    public static void customToast(Context context, String message){
+    public static void success(Context context, String message){
 
 
         Toast toast = Toast.makeText(context, message, Toast.LENGTH_LONG);
         View view = toast.getView();
-        view.setBackgroundResource(R.drawable.custom_background);
-//        TextView text = (TextView) view.findViewById(android.R.id.message);findViewById
-        /*Here you can do anything with above textview like text.setTextColor(Color.parseColor("#000000"));*/
+        view.setBackgroundResource(R.drawable.bg_success);
+        TextView text = (TextView) view.findViewById(android.R.id.message);
+        text.setTextColor(Color.WHITE);
+
+        toast.setText(text.getText());
+
         toast.show();
     }
+
+    public static void error(Context context, String message){
+
+        Toast toast = Toast.makeText(context, message, Toast.LENGTH_LONG);
+        View view = toast.getView();
+        view.setBackgroundResource(R.drawable.bg_error);
+        TextView text = (TextView) view.findViewById(android.R.id.message);
+        text.setTextColor(Color.WHITE);
+        toast.setText(text.getText());
+        toast.show();
+    }
+
+    public static void info(Context context, String message){
+
+        Toast toast = Toast.makeText(context, message, Toast.LENGTH_LONG);
+        View view = toast.getView();
+        view.setBackgroundResource(R.drawable.bg_info);
+        TextView text = (TextView) view.findViewById(android.R.id.message);
+        text.setTextColor(Color.WHITE);
+        toast.setText(text.getText());
+        toast.show();
+    }
+
+    public static void warning(Context context, String message){
+
+        Toast toast = Toast.makeText(context, message, Toast.LENGTH_LONG);
+        View view = toast.getView();
+        view.setBackgroundResource(R.drawable.bg_warning);
+        TextView text = (TextView) view.findViewById(android.R.id.message);
+        text.setTextColor(Color.WHITE);
+        toast.setText(text.getText());
+        toast.show();
+    }
+
 
 }
