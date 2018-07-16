@@ -20,7 +20,7 @@ then add the library to dependency
 
 ```groovy
 dependencies {
-	implementation 'com.github.ytam:CustomSnackBarToast:1.0'
+	implementation 'com.github.ytam:CustomSnackBarToast:1.1'
 }
 ```
 
