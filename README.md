@@ -2,14 +2,14 @@
 Custom toast library
 
 
-[Success Toast](https://user-images.githubusercontent.com/15671434/42749753-68642828-88ed-11e8-920b-94d176d4a32f.png) | [Error Toast](https://user-images.githubusercontent.com/15671434/42749754-68856204-88ed-11e8-9c1b-cdcee869bc1b.png)| [Info Toast](https://user-images.githubusercontent.com/15671434/42749755-68a48544-88ed-11e8-9888-8badca914df7.png) 
+[Success Toast](https://user-images.githubusercontent.com/15671434/43009636-de73da16-8c46-11e8-8f14-46d6a5a56c72.png) | [Error Toast](https://user-images.githubusercontent.com/15671434/43009635-de46e2d6-8c46-11e8-924e-21740e331418.png)| [Info Toast](https://user-images.githubusercontent.com/15671434/43009634-de1e1f40-8c46-11e8-96b3-bb65270ed4a8.png) 
 ------------------------------------------------------- | -------------------------------------------------------------------------|--------------------
-<img width="200" src="https://user-images.githubusercontent.com/15671434/42749753-68642828-88ed-11e8-920b-94d176d4a32f.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/42749754-68856204-88ed-11e8-9c1b-cdcee869bc1b.png">|<img width="200" src="https://user-images.githubusercontent.com/15671434/42749755-68a48544-88ed-11e8-9888-8badca914df7.png">
+<img width="200" src="https://user-images.githubusercontent.com/15671434/43009636-de73da16-8c46-11e8-8f14-46d6a5a56c72.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/43009635-de46e2d6-8c46-11e8-924e-21740e331418.png">|<img width="200" src="https://user-images.githubusercontent.com/15671434/43009634-de1e1f40-8c46-11e8-96b3-bb65270ed4a8.png">
 
 
-[Warning Toast](https://user-images.githubusercontent.com/15671434/42749756-68c451a8-88ed-11e8-8329-45897dbf1653.png) | [Normal Toast](https://user-images.githubusercontent.com/15671434/42759618-4ccb37b4-8910-11e8-9ef2-41b34d67bf37.png)| 
+[Warning Toast](https://user-images.githubusercontent.com/15671434/43009632-ddd45680-8c46-11e8-91a3-9a1df1be8a7a.png) | [Normal Toast](https://user-images.githubusercontent.com/15671434/43009631-ddad1390-8c46-11e8-9975-82453d479b7a.png)| 
 ------------------------------------------------------- | -------------------------------------------------------------------------
-<img width="200" src="https://user-images.githubusercontent.com/15671434/42749756-68c451a8-88ed-11e8-8329-45897dbf1653.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/42759618-4ccb37b4-8910-11e8-9ef2-41b34d67bf37.png">
+<img width="200" src="https://user-images.githubusercontent.com/15671434/43009632-ddd45680-8c46-11e8-91a3-9a1df1be8a7a.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/43009631-ddad1390-8c46-11e8-9975-82453d479b7a.png">
 
 
 
@@ -39,36 +39,36 @@ dependencies {
 
 ```java
 
-  CustomToast.success(this, "This is success message");
+  CustomToast.success(this, "This is success message",Toast.LENGTH_SHORT);
 ```
 
 #### Usage for error toast message
 
 ```java
 
- CustomToast.error(this, "This is error message");
+  CustomToast.error(this, "This is error message",Toast.LENGTH_LONG);
 ```
 
 #### Usage for info toast message
 
 ```java
 
-CustomToast.info(this, "This is info message");
+CustomToast.info(this, "This is info message",Toast.LENGTH_LONG);
 ```
 
 
-#### Usage for info toast message
+#### Usage for warning toast message
 
 ```java
 
-CustomToast.warning(this, "This is warning message");
+CustomToast.warning(this, "This is warning message",Toast.LENGTH_LONG);
 ```
 
 #### Usage for normal toast message
 
 ```java
 
-CustomToast.normal(this, "This is normal message");
+CustomToast.normal(this, "This is normal message",Toast.LENGTH_LONG);
 ```
 
 
