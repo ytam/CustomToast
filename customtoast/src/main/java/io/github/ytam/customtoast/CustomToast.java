@@ -99,4 +99,22 @@ public class CustomToast extends Toast {
 
         return toast;
     }
+
+    public static Toast iconToast(Context context,String message,int duration,int color,int ImageResource){
+
+        Toast toast = new Toast(context);
+        toast.setDuration(duration);
+        View layout = LayoutInflater.from(context).inflate(R.layout.toast_layout, null, false);
+        layout.setBackgroundColor(color);
+        TextView l1 = (TextView) layout.findViewById(R.id.toast_text);
+        LinearLayout linearLayout=(LinearLayout) layout.findViewById(R.id.toast_layout);
+        ImageView img=(ImageView) layout.findViewById(R.id.toast_icon);
+        l1.setText(message);
+        img.setImageResource(ImageResource);
+        linearLayout.setBackgroundColor(color);
+
+        toast.setView(layout);
+        toast.show();
+        return toast;
+    }
 }

@@ -1,5 +1,6 @@
 package io.github.ytam.customsnackbartoast;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -43,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.btnNormal) void clickNormal(){
 
         CustomToast.normal(this, "This is normal message",Toast.LENGTH_LONG);
+
+    }
+
+    @OnClick(R.id.btnOwn) void clickBtnOwn(){
+
+        CustomToast.iconToast(this,"This is custom icon toast", Toast.LENGTH_LONG, Color.parseColor("#6d4c41"),R.drawable.ic_android_black_24dp);
 
     }
 }

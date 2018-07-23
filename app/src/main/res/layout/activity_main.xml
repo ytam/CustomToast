@@ -14,7 +14,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Success Toast"
         android:textColor="@android:color/white"
-        android:layout_width="150dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content" />
 
     <Button
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Error Toast"
         android:textColor="@android:color/white"
-        android:layout_width="150dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content" />
 
     <Button
@@ -36,7 +36,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Info Toast"
         android:textColor="@android:color/white"
-        android:layout_width="150dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content" />
 
     <Button
@@ -47,7 +47,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Warning Toast"
         android:textColor="@android:color/white"
-        android:layout_width="150dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content" />
 
 
@@ -58,7 +58,17 @@
         android:layout_gravity="center_horizontal"
         android:text="Normal Toast"
         android:textColor="@android:color/white"
-        android:layout_width="150dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOwn"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Custom icon Toast"
+        android:textColor="@android:color/white"
+        android:layout_width="250dp"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
