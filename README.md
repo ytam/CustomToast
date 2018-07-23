@@ -7,9 +7,9 @@ Custom toast library
 <img width="200" src="https://user-images.githubusercontent.com/15671434/43009636-de73da16-8c46-11e8-8f14-46d6a5a56c72.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/43009635-de46e2d6-8c46-11e8-924e-21740e331418.png">|<img width="200" src="https://user-images.githubusercontent.com/15671434/43009634-de1e1f40-8c46-11e8-96b3-bb65270ed4a8.png">
 
 
-[Warning Toast](https://user-images.githubusercontent.com/15671434/43009632-ddd45680-8c46-11e8-91a3-9a1df1be8a7a.png) | [Normal Toast](https://user-images.githubusercontent.com/15671434/43009631-ddad1390-8c46-11e8-9975-82453d479b7a.png)| 
-------------------------------------------------------- | -------------------------------------------------------------------------
-<img width="200" src="https://user-images.githubusercontent.com/15671434/43009632-ddd45680-8c46-11e8-91a3-9a1df1be8a7a.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/43009631-ddad1390-8c46-11e8-9975-82453d479b7a.png">
+[Warning Toast](https://user-images.githubusercontent.com/15671434/43009632-ddd45680-8c46-11e8-91a3-9a1df1be8a7a.png) | [Normal Toast](https://user-images.githubusercontent.com/15671434/43009631-ddad1390-8c46-11e8-9975-82453d479b7a.png)| [Custom icon Toast](https://user-images.githubusercontent.com/15671434/43065818-a6a9d44c-8e6b-11e8-9ab1-37c3473e3832.png) | 
+------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------
+<img width="200" src="https://user-images.githubusercontent.com/15671434/43009632-ddd45680-8c46-11e8-91a3-9a1df1be8a7a.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/43009631-ddad1390-8c46-11e8-9975-82453d479b7a.png">| <img width="200" src="https://user-images.githubusercontent.com/15671434/43065818-a6a9d44c-8e6b-11e8-9ab1-37c3473e3832.png">
 
 
 
@@ -71,6 +71,12 @@ CustomToast.warning(this, "This is warning message",Toast.LENGTH_LONG);
 CustomToast.normal(this, "This is normal message",Toast.LENGTH_LONG);
 ```
 
+#### Usage for custom icon and background color toast message
+
+```java
+
+CustomToast.iconToast(this,"This is custom icon toast", Toast.LENGTH_LONG, Color.parseColor("#6d4c41"),R.drawable.ic_android_black_24dp);
+```
 
 License
 --------
