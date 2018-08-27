@@ -75,14 +75,14 @@ CustomToast.normal(this, "This is normal message",Toast.LENGTH_LONG);
 
 ```java
 
-CustomToast.iconToast(this,"This is custom icon toast", Toast.LENGTH_LONG, Color.parseColor("#6d4c41"),R.drawable.ic_android_black_24dp);
+CustomToast.iconToast(this,"This is custom icon toast", Toast.LENGTH_LONG, Color.parseColor("#6d4c41"),R.drawable.your_icon_path);
 ```
 
 License
 --------
 
 
-      MIT License
+    MIT License
 
     Copyright (c) 2018 Yıldırım Tam
 
