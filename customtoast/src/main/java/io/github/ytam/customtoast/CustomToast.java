@@ -1,7 +1,5 @@
 package io.github.ytam.customtoast;
 
-import android.app.Activity;
-import android.app.Application;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,19 +10,18 @@ import android.widget.Toast;
 
 public class CustomToast extends Toast {
 
-    /**
-     * Construct an empty Toast object.  You must call {@link #setView} before you
-     * can call {@link #show}.
-     *
-     * @param context The context to use.  Usually your {@link Application}
-     *                or {@link Activity} object.
-     */
-
-
     public CustomToast(Context context) {
         super(context);
     }
 
+    /**
+     * Show success toast message.
+     *
+     * @param context a {@link Context} object.
+     * @param message
+     * @param duration
+     * @return success toast message.
+     */
     public static Toast success(Context context,String message,int duration){
 
         Toast toast = new Toast(context);
@@ -41,6 +38,14 @@ public class CustomToast extends Toast {
         return toast;
     }
 
+    /**
+     * Show error toast message.
+     *
+     * @param context a {@link Context} object.
+     * @param message
+     * @param duration
+     * @return error toast message.
+     */
     public static Toast error(Context context,String message,int duration){
 
         Toast toast = new Toast(context);
@@ -57,6 +62,14 @@ public class CustomToast extends Toast {
         return toast;
     }
 
+    /**
+     * Show info toast message.
+     *
+     * @param context a {@link Context} object.
+     * @param message
+     * @param duration
+     * @return info toast message.
+     */
     public static Toast info(Context context,String message,int duration){
 
         Toast toast = new Toast(context);
@@ -73,6 +86,14 @@ public class CustomToast extends Toast {
         return toast;
     }
 
+    /**
+     * Show warning toast message.
+     *
+     * @param context a {@link Context} object.
+     * @param message
+     * @param duration
+     * @return warning toast message.
+     */
     public static Toast warning(Context context,String message,int duration){
 
         Toast toast = new Toast(context);
@@ -89,6 +110,14 @@ public class CustomToast extends Toast {
         return toast;
     }
 
+    /**
+     * Show normal system toast message.
+     *
+     * @param context a {@link Context} object.
+     * @param message
+     * @param duration
+     * @return normal system toast message.
+     */
     public static Toast normal(Context context,String message,int duration){
 
         Toast toast = Toast.makeText(context, message, duration);
@@ -100,6 +129,16 @@ public class CustomToast extends Toast {
         return toast;
     }
 
+    /**
+     * Show custom icon and custom color toast message.
+     *
+     * @param context a {@link Context} object.
+     * @param message
+     * @param duration
+     * @param color
+     * @param ImageResource
+     * @return  custom icon and custom color toast message.
+     */
     public static Toast iconToast(Context context,String message,int duration,int color,int ImageResource){
 
         Toast toast = new Toast(context);
